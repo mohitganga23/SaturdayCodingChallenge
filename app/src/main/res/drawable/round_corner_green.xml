@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Ripple Effect -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/colorPrimaryDark">
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/background_light" />
+            <corners android:radius="18dp" />
+        </shape>
+    </item>
+
+    <!-- Button Shape -->
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#21e34c" />
+            <stroke
+                android:width="1dip"
+                android:color="#21e43c" />
+            <corners android:radius="18dip" />
+            <padding
+                android:bottom="0dip"
+                android:left="0dip"
+                android:right="0dip"
+                android:top="0dip" />
+        </shape>
+    </item>
+</ripple>

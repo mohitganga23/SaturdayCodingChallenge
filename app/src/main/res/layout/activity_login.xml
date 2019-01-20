@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margin_48_dp"
+        android:layout_marginEnd="@dimen/margin_24_dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/loginText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/margin_36_dp"
+            android:fontFamily="@font/ubuntu_mono_r"
+            android:text="@string/log_in"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_36_sp" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loginText"
+            android:layout_marginStart="@dimen/margin_36_dp"
+            android:fontFamily="@font/ubuntu_mono_r"
+            android:text="@string/username"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_18_sp" />
+
+        <EditText
+            android:id="@+id/usernameField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/username"
+            android:layout_marginStart="@dimen/margin_36_dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:inputType="text"
+            android:textColor="@android:color/white"
+            app:backgroundTint="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/usernameField"
+            android:layout_marginStart="@dimen/margin_36_dp"
+            android:layout_marginTop="@dimen/margin_36_dp"
+            android:fontFamily="@font/ubuntu_mono_r"
+            android:text="@string/password"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_18_sp" />
+
+        <EditText
+            android:id="@+id/passwordField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password"
+            android:layout_marginStart="@dimen/margin_36_dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:inputType="textPassword"
+            android:textColor="@android:color/white"
+            app:backgroundTint="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/passwordField"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/margin_36_dp"
+            android:layout_marginTop="@dimen/margin_36_dp"
+            android:background="@drawable/round_corner_green"
+            android:fontFamily="@font/ubuntu_mono_r"
+            android:gravity="center"
+            android:text="@string/log_in"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_24_sp" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SaturdayCodingChallenge</string>
+    <string name="saturday_coding_challenge">Saturday Coding Challenge</string>
+    <string name="log_in">LOG IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="or">OR</string>
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="email">EMAIL</string>
+    <string name="welcome">Welcome</string>
+    <string name="quote">“Simplicity is the soul of efficiency.”</string>
+</resources>

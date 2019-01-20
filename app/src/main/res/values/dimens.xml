@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="logo_height_splash">120dp</dimen>
+    <dimen name="logo_width_splash">120dp</dimen>
+
+    <dimen name="logo_height_selection">96dp</dimen>
+    <dimen name="logo_width_selection">96dp</dimen>
+
+    <dimen name="margin_136_dp">136dp</dimen>
+    <dimen name="margin_48_dp">48dp</dimen>
+    <dimen name="margin_36_dp">36dp</dimen>
+    <dimen name="margin_24_dp">24dp</dimen>
+    <dimen name="margin_18_dp">18dp</dimen>
+
+    <dimen name="text_size_18_sp">18sp</dimen>
+    <dimen name="text_size_24_sp">24sp</dimen>
+    <dimen name="text_size_36_sp">36sp</dimen>
+</resources>
